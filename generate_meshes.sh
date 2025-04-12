@@ -1,12 +1,14 @@
 #!/bin/bash
-
+module load climate-utils
+module load python
+module load cray-netcdf
 # List of resolutions (edit as needed)
 resolutions=(10 20 30 40 50 60)
 
 # Paths
 BIN_DIR="./bin"
 OUTPUT_DIR="./output"
-PY_SCRIPT="./scripts/generate_connectiviey.py"
+PY_SCRIPT="./scripts/generate_connectivity.py"
 
 # Ensure output directory exists
 mkdir -p "$OUTPUT_DIR"
