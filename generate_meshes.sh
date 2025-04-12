@@ -1,6 +1,7 @@
 #!/bin/bash
 module load climate-utils
 module load python
+module load cray-hdf5
 module load cray-netcdf
 # List of resolutions (edit as needed)
 resolutions=(10 20 30 40 50 60 70 80 90 100)
