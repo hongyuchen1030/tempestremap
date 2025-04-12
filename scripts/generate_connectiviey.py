@@ -1,6 +1,8 @@
 import sys
 import os
 from pathlib import Path
+sys.path.insert(0, str(Path.home() / "uxarray"))
+sys.path.insert(0, str(Path.home() / "xarray"))
 import uxarray as ux
 import pandas as pd
 

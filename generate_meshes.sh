@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of resolutions (edit as needed)
-resolutions=(10 20 30 40 50)
+resolutions=(10 20 30 40 50 60)
 
 # Paths
 BIN_DIR="./bin"
